@@ -9,7 +9,7 @@
         <a-menu theme="dark" v-model:selectedKeys="selectedKeys" mode="inline">
           <a-menu-item v-for="item in Dynamicmenu" :key="item.key" class="menu-item">
             <i class="icon-item" :class="item.icon"></i>
-            <span class="item-name">{{ item.name }}</span>
+            <span v-if="!collapsed" class="item-name">{{ item.name }}</span>
           </a-menu-item>
         </a-menu>
       </a-layout-sider>
