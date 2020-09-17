@@ -1,12 +1,10 @@
 <template>
-    <side></side>
+  <side></side>
 </template>
 <script>
-import side from './components/AppSideBar.vue'
+import side from './components/AppSide.vue';
 export default {
-  components:{side}
+  components: { side },
 };
 </script>
-<style lang="scss">
-
-</style>
+<style lang="scss"></style>
