@@ -1,6 +1,6 @@
 <template>
   <div class="component-projects">
-    11111
+    11111 22222
     <!--  <a-layout>
       <a-layout-content>zhongjian</a-layout-content>
       <a-layout-footer style="text-align: center">
@@ -19,6 +19,6 @@ export default {
 <style lang="scss">
 .component-projects {
   width: 100%;
-  padding-left: 200px;
+  height: 100%;
 }
 </style>

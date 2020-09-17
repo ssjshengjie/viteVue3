@@ -40,7 +40,9 @@
         </div>
       </a-layout-sider>
       <a-layout>
-        <a-layout-content>zhongjian</a-layout-content>
+        <a-layout-content>
+          <projects></projects>
+        </a-layout-content>
         <a-layout-footer style="text-align: center">
           <button type="button" class="btn btn-primary">
             （首选项）Primary
@@ -53,8 +55,10 @@
 
 <script>
 import { reactive, ref, toRefs } from 'vue';
+import projects from './AppProjects.vue';
 export default {
-  name: 'AppSide',
+  name: 'AppSidebar',
+  components: { projects },
   setup() {
     const data = reactive({
       collapsed: false,
@@ -154,6 +158,7 @@ export default {
         border-radius: 30%;
         margin-bottom: 10px;
         cursor: pointer;
+        box-shadow: 10px 10px 5px #888888;
       }
       .link-github {
         background: url('../assets/image/github.jpg');
