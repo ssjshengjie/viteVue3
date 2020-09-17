@@ -4,6 +4,7 @@
 - axios
 - vue-router
 - ant-design-vue
+- Bootstrap v3
 #### 更新
 ```
 npm install
@@ -17,4 +18,4 @@ or
 yarn dev
 ```
 #### 更新时间
-2020年9月16日21点30分
+2020年9月17日21点04分
