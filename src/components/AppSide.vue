@@ -54,7 +54,7 @@
 <script>
 import { reactive, ref, toRefs } from 'vue';
 export default {
-  name: 'AppSidebar',
+  name: 'AppSide',
   setup() {
     const data = reactive({
       collapsed: false,
