@@ -1,12 +1,6 @@
 <template>
   <div class="component-projects">
-    11111 22222
-    <!--  <a-layout>
-      <a-layout-content>zhongjian</a-layout-content>
-      <a-layout-footer style="text-align: center">
-        <button type="button" class="btn btn-primary">（首选项）Primary</button>
-      </a-layout-footer>
-    </a-layout> -->
+    1111
   </div>
 </template>
 
