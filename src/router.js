@@ -1,7 +1,32 @@
 import { createRouter, createWebHistory } from "vue-router";
+const Home =()=>import('./view/Home.vue')
+const File =()=>import('./view/File.vue')
+const Tag =()=>import('./view/Tag.vue')
+const About =()=>import('./view/About.vue')
 const routes = [{
-        path: "/"
+        path: "/",
+        redirect:'/home'
     },
+    {
+        path:'/home',
+        name:Home,
+        component:Home
+    },
+    {
+        path:'/file',
+        name:File,
+        component:File
+    },
+    {
+        path:'/tag',
+        name:Tag,
+        component:Tag
+    },
+    {
+        path:'/about',
+        name:About,
+        component:About
+    }
     // {
     //   path: "/about",
     //   name: "About",
